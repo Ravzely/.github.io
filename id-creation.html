@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trashistan.gov</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-cont">
+        <nav class="nav-topbar">
+            <a class="nav-logo" href="">
+                <img class="nav-logo-img" src="logo.png">
+                <h3 class="nav-logo-txt">Trashistan.gov</h3>
+            </a>
+
+            <a class="nav-link" href="">Home</a>
+            <hr class="nav-hr">
+            <a class="nav-link" href="">Information</a>
+            <hr class="nav-hr">
+            <a class="nav-link" href="">ID application</a>
+        </nav>
+
+        <div class="content">
+            <h2>Trashistan I.D Application Form</h2>
+
+            <hr>
+
+            <form id="id-app-form">
+                <fieldset>
+                    <legend>I.D Application Form</legend>
+
+                    <label>Discord username <input type="text" class="inp-txt" id="us-n"></label>
+                    <label>Join date <input type="datetime-local" class="inp-txt" id="jn-d"></label>
+                    <label>Affiliated establishment (optional) <input type="text" class="inp-txt" id="af-e"></label>
+                    <label>Profile picture<input type="file" class="inp-txt" id="pf-i"></label>
+                    <input type="submit" class="inp-submit">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <script src="id-submit.js"></script>
+</body>

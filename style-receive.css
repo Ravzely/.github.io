@@ -1,0 +1,55 @@
+body {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+    gap: 1em;
+
+    width: 100vw;
+    height: 100vh;
+
+    color: #000;
+    font-family: sans-serif;
+}
+
+progress {
+    background: #ddd;
+
+    width: 20em;
+    height: 1.5em;
+
+    border-radius: .5em;
+}
+
+canvas {
+    width: 800px;
+    height: 300px;
+
+    
+}
+
+progress::-webkit-progress-value {
+    background: linear-gradient(#717bd8, #2c368b);
+
+    outline: #2c368b 1px solid;
+    
+}
+
+progress::-webkit-progress-bar {
+    border-radius: .5em;
+    overflow: hidden;
+
+    outline: #3b3b3b 1px solid;
+
+    border-top: #e2e2e2 1px solid;
+    border-bottom: #202020 1px solid;
+
+    background: linear-gradient(#303030, #646464);
+
+    box-shadow: 0 0 .5em #000;
+}

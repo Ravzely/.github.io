@@ -1,0 +1,173 @@
+body {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+    gap: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: #DDD;
+}
+
+hr {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+legend {
+    /* background: #b3daab; */
+    padding: .25em;
+    border: groove;
+    border-width: 2px;
+    border-radius: .35em;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+
+    gap: .5em;
+}
+
+.inp-txt {
+    margin: 0 0 0 1.5em;
+    padding: .25em;
+
+    background: linear-gradient(#DDD, #EEE);
+    border: inset;
+    border-width: 1px;
+    outline: #cecece 1px solid;
+}
+
+.inp-submit {
+    margin: 1em auto 0 auto;
+    padding: .25em;
+
+    width: 15em;
+
+    background: linear-gradient(#EEE, #DDD);
+    border: outset;
+    border-width: 1px;
+
+    box-shadow: 0 0 .125em #000;
+    cursor:pointer;
+}
+
+.inp-submit:active {
+    margin: 1em auto 0 auto;
+    padding: .25em;
+
+    width: 15em;
+
+    background: linear-gradient(#DDD, #EEE);
+    border: inset;
+    border-width: 1px;
+
+    box-shadow: 0 0 .125em #000 inset;
+}
+
+
+.main-cont {
+    display: grid;
+    grid-template-rows: .1fr 1fr;
+
+    margin: 0;
+    padding: 0;
+    gap: 0;
+
+    width: 40vw;
+    height: 90vh;
+
+    background: #FFF;
+
+    box-shadow: 0 0 .5em #000;
+}
+
+.nav-topbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-row: 1;
+
+    align-items: center;
+
+    margin: 0;
+    padding: .5em;
+    gap: .5em;
+
+    background: linear-gradient(#8486d3, #3e409b);
+}
+
+.nav-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    align-items: center;
+
+    margin: 0 auto 0 0;
+    padding: 0;
+    gap: .25em;
+
+    color: #FFF;
+    font-family: sans-serif;
+
+    text-decoration: none;
+}
+
+.nav-logo-img {
+    height: 3em;
+
+    filter: drop-shadow(0 0 .25em #000);
+}
+
+.nav-logo-txt {
+    filter: drop-shadow(0 0 .25em #000);
+}
+
+.nav-link {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+
+    margin: 0;
+    padding: .5em;
+    gap: 0;
+
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.nav-hr {
+    height: 80%;
+    width: 0;
+    margin: .5em;
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    grid-row: 2;
+
+    margin: 0;
+    padding: 1.5em;
+    gap: .25em;
+
+    color: #000;
+    font-family: sans-serif;
+}
