@@ -1,5 +1,5 @@
 const form = document.getElementById("id-app-form")
-let url = new URL("file:///D:/Documents/teeheehee/id-claim.html");
+let url = new URL("https://ravzely.github.io/.github.io/id-claim.html");
 
 // url.searchParams.append("us-n", form.querySelector("#us-n"));
 // url.searchParams.append("jn-d", form.querySelector("#jn-d"));
@@ -31,4 +31,5 @@ form.addEventListener("submit", (e) => {
     image = null;
     img = null;
 })
+
 
